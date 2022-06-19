@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Outfit';
+  src: local('Outfit Bold'), local('Outfit-Bold'),
+  url('../fonts/Outfit-Bold.woff2') format('woff2'),
+  url('../fonts/Outfit-Bold.woff') format('woff'),
+  url('../fonts/Outfit-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: local('Outfit Regular'), local('Outfit-Regular'),
+  url('../fonts/Outfit-Regular.woff2') format('woff2'),
+  url('../fonts/Outfit-Regular.woff') format('woff'),
+  url('../fonts/Outfit-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
