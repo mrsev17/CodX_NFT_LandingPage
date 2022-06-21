@@ -1,0 +1,31 @@
+.work {
+  background-image: linear-gradient(135deg, #82CBAC 10%, white 10%, white 90%, #82CBAC 90%);
+  padding: 120px 0;
+  &__zero-three,
+  &__zero-two,
+  &__zero-one {
+    border-radius: 30px;
+    padding: 12px 24px;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  &__zero-one {
+    background-color: $accent-color;
+  }
+  &__zero-two {
+    background-color: #FF7F96;
+  }
+  &__zero-three {
+    background-color: #EAD71B;
+  }
+  &__title {
+    margin-top: 20px;
+    font-size: 42px;
+    font-weight: 700;
+  }
+  &__description {
+    font-size: 24px;
+    max-width: 520px;
+    margin-top: 10px;
+  }
+}
