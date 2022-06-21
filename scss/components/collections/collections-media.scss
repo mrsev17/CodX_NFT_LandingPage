@@ -1,0 +1,10 @@
+@media (max-width: 992px) {
+  .collections {
+    &__wrapper-cards {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+
+  }
+}

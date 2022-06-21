@@ -147,7 +147,7 @@ a {
 }
 .advantages {
   background-image: linear-gradient(45deg, #82CBAC 10%, white 10%, white 90%, white 90%);
-  padding: 60px 0;
+  padding: 60px 0 120px;
 }
 .advantages__wrapper {
   gap: 100px;
@@ -269,6 +269,47 @@ a {
     padding: 20px 0 0;
   }
 }
+.collections {
+  padding: 60px 0;
+}
+.collections__title {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 62px;
+}
+.collections__wrapper-cards {
+  margin-top: 60px !important;
+  justify-content: space-between;
+}
+.collections .card {
+  border: none !important;
+}
+.collections .card-body {
+  text-align: center;
+}
+.collections .card-body > a {
+  font-size: 24px !important;
+  width: 100%;
+}
+.collections .card-body > a:hover {
+  transition: 1s !important;
+}
+.collections__link-view {
+  text-align: center;
+  margin-top: 60px !important;
+}
+.collections__link-view > a {
+  width: 40%;
+  font-size: 24px !important;
+}
+
+@media (max-width: 992px) {
+  .collections__wrapper-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}
 .discover {
   padding: 60px 0 0;
   background-color: #82CBAC;
@@ -361,6 +402,9 @@ a {
 }
 .header .container-fluid {
   padding: 0;
+}
+.header__upper-part {
+  margin-top: 60px;
 }
 
 @media (max-width: 992px) {

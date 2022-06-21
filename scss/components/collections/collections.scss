@@ -1,0 +1,33 @@
+.collections {
+  padding: 60px 0;
+  &__title {
+    text-align: center;
+    font-family: $regular-font;
+    font-size: 62px;
+  }
+  &__wrapper-cards {
+    margin-top: 60px !important;
+    justify-content: space-between;
+  }
+  .card {
+    border: none !important;
+  }
+  .card-body {
+    text-align: center;
+  }
+  .card-body > a {
+    font-size: 24px !important;
+    width: 100%;
+    &:hover {
+      transition: 1s !important;
+    }
+  }
+  &__link-view {
+    text-align: center;
+    margin-top: 60px !important;
+  }
+  &__link-view > a {
+    width: 40%;
+    font-size: 24px !important;
+  }
+}
