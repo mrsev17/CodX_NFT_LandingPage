@@ -1,16 +1,17 @@
 .work {
-  background-image: linear-gradient(135deg, #82CBAC 10%, white 10%, white 90%, #82CBAC 90%);
+  background-image: linear-gradient(45deg, white 10%, white 10%, white 90%, #82CBAC 90%);
   padding: 120px 0;
   &__zero-three,
   &__zero-two,
   &__zero-one {
     border-radius: 30px;
-    border: 1px solid grey;
     padding: 12px 24px;
     color: #ffffff;
     font-size: 18px;
+    font-family: $regular-font;
   }
   &__zero-one {
+    margin-top: 20px !important;
     background-color: $accent-color;
   }
   &__zero-two {
@@ -23,10 +24,22 @@
     margin-top: 20px;
     font-size: 42px;
     font-weight: 700;
+    font-family: $regular-font;
   }
   &__description {
-    font-size: 24px;
-    max-width: 520px;
+    font-size: 22px;
+    max-width: 530px;
     margin-top: 10px;
+    font-family: $regular-font;
+  }
+  &__left-upper {
+    margin-top: 20px;
+  }
+  &__left-down,
+  &__left-mid {
+    margin-top: 30px;
+  }
+  &__wrapper {
+    gap: 100px;
   }
 }

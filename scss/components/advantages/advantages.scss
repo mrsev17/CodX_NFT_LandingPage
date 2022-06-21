@@ -1,0 +1,31 @@
+.advantages {
+  background-image: linear-gradient(45deg, #82CBAC 10%, white 10%, white 90%, white 90%);
+  padding: 60px 0;
+  &__wrapper {
+    gap: 100px
+  }
+  &__subtitle {
+    font-size: 35px;
+    font-family: $regular-font;
+  }
+  &__title {
+    font-family: $regular-font;
+    font-size: 48px;
+    max-width: 486px;
+  }
+  &__description {
+    max-width: 546px;
+    font-size: 18px;
+    font-family: $regular-font;
+    margin-top: 40px;
+  }
+  &__form-link {
+    margin-top: 60px;
+    text-align: center;
+  }
+  &__form-link > a {
+    &:hover {
+      background-image: linear-gradient(135deg, #82CBAC 13%, white 13%, white 87%, #82CBAC 87%);
+    }
+  }
+}

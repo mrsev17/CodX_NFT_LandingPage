@@ -145,6 +145,64 @@ a {
   font-style: normal;
   font-display: swap;
 }
+.advantages {
+  background-image: linear-gradient(45deg, #82CBAC 10%, white 10%, white 90%, white 90%);
+  padding: 60px 0;
+}
+.advantages__wrapper {
+  gap: 100px;
+}
+.advantages__subtitle {
+  font-size: 35px;
+  font-family: "Outfit", sans-serif;
+}
+.advantages__title {
+  font-family: "Outfit", sans-serif;
+  font-size: 48px;
+  max-width: 486px;
+}
+.advantages__description {
+  max-width: 546px;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  margin-top: 40px;
+}
+.advantages__form-link {
+  margin-top: 60px;
+  text-align: center;
+}
+.advantages__form-link > a:hover {
+  background-image: linear-gradient(135deg, #82CBAC 13%, white 13%, white 87%, #82CBAC 87%);
+}
+
+@media (max-width: 992px) {
+  .advantages {
+    background-image: linear-gradient(45deg, white 10%, white 10%, white 90%, #82CBAC 90%);
+  }
+  .advantages__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .advantages__subtitle {
+    text-align: center;
+  }
+  .advantages__title {
+    text-align: center;
+    max-width: 600px;
+  }
+  .advantages__description {
+    text-align: center;
+    max-width: 600px;
+  }
+  .advantages__form-link > a {
+    width: 100% !important;
+  }
+}
+@media (max-width: 770px) {
+  .advantages {
+    background-image: linear-gradient(45deg, #82CBAC 5%, white 5%, white 95%, white 95%);
+  }
+}
 .banner {
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(140, 29, 204) 38%, rgb(0, 212, 255) 100%);
   padding: 60px 0 0;
@@ -320,17 +378,18 @@ a {
   }
 }
 .work {
-  background-image: linear-gradient(135deg, #82CBAC 10%, white 10%, white 90%, #82CBAC 90%);
+  background-image: linear-gradient(45deg, white 10%, white 10%, white 90%, #82CBAC 90%);
   padding: 120px 0;
 }
 .work__zero-three, .work__zero-two, .work__zero-one {
   border-radius: 30px;
-  border: 1px solid grey;
   padding: 12px 24px;
   color: #ffffff;
   font-size: 18px;
+  font-family: "Outfit", sans-serif;
 }
 .work__zero-one {
+  margin-top: 20px !important;
   background-color: #82CBAC;
 }
 .work__zero-two {
@@ -343,20 +402,38 @@ a {
   margin-top: 20px;
   font-size: 42px;
   font-weight: 700;
+  font-family: "Outfit", sans-serif;
 }
 .work__description {
-  font-size: 24px;
-  max-width: 520px;
+  font-size: 22px;
+  max-width: 530px;
   margin-top: 10px;
+  font-family: "Outfit", sans-serif;
+}
+.work__left-upper {
+  margin-top: 20px;
+}
+.work__left-down, .work__left-mid {
+  margin-top: 30px;
+}
+.work__wrapper {
+  gap: 100px;
 }
 
 @media (max-width: 992px) {
   .work {
     padding: 50px 0;
   }
+  .work__zero-three, .work__zero-two, .work__zero-one {
+    border-radius: 30px;
+    padding: 12px 24px;
+    color: #ffffff;
+    font-size: 18px;
+  }
   .work__wrapper {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   .work__right-side {
     margin-top: 20px;
@@ -364,7 +441,7 @@ a {
 }
 @media (max-width: 770px) {
   .work {
-    background-image: linear-gradient(135deg, #82CBAC 5%, white 5%, white 95%, #82CBAC 95%);
+    background-image: linear-gradient(45deg, white 5%, white 5%, white 95%, #82CBAC 95%);
   }
 }
 
