@@ -1,13 +1,28 @@
 @media (max-width: 992px) {
   .header {
+    .navbar-expand-lg {
+      background-color: transparent !important;
+      background-image: linear-gradient(135deg, #00b4db 10%, white 10%, white 90%, #0083b0 90%);
+    }
     &__control {
-      margin-top: 25px;
+      margin-top: 50px;
+    }
+
+    .nav-item {
+      text-align: center;
+    }
+
+    .navbar-nav {
+      margin-top: 20px !important;
     }
   }
-  .nav-item {
-    text-align: center;
-  }
-  .navbar-nav {
-    margin-top: 20px !important;
+}
+
+@media (max-width: 576px) {
+  .header {
+    .row {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
   }
 }

@@ -144,12 +144,82 @@ a {
   font-style: normal;
   font-display: swap;
 }
+.banner {
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(140, 29, 204) 38%, rgb(0, 212, 255) 100%);
+  padding: 60px 0 0;
+}
+.banner__wrapper-upper {
+  justify-content: space-between;
+}
+.banner__subtitle {
+  margin-top: 210px;
+  color: #82CBAC;
+  font-family: "Outfit", sans-serif;
+  margin-bottom: -10px;
+  font-size: 18px;
+}
+.banner__title {
+  font-size: 68px;
+  font-family: "Outfit", sans-serif;
+  max-width: 550px;
+  color: #ffffff;
+}
+.banner__description {
+  font-family: "Outfit", sans-serif;
+  font-size: 22px;
+  max-width: 500px;
+  color: #82CBAC;
+}
+.banner__right-side img {
+  margin-top: 60px;
+}
+.banner__collage-picture {
+  margin-top: 140px;
+  width: 100vw;
+}
+.banner .container-fluid {
+  padding: 0;
+}
+
+@media (max-width: 992px) {
+  .banner__wrapper-upper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner__subtitle {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .banner__title {
+    text-align: center;
+  }
+  .banner__description {
+    text-align: center;
+  }
+  .banner__collage-picture {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 992px) {
+  .banner__title {
+    font-size: 48px;
+  }
+}
+@media (max-width: 576px) {
+  .banner {
+    padding: 20px 0 0;
+  }
+}
 .header {
   padding: 30px 0 0 0;
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(140, 29, 204) 38%, rgb(0, 212, 255) 100%);
 }
 .header .navbar-nav {
   gap: 20px;
+}
+.header .navbar-expand-lg {
+  background-color: transparent !important;
+  background-image: linear-gradient(135deg, #00b4db 10%, white 10%, white 90%, #0083b0 90%);
 }
 .header .navbar-nav li a {
   font-family: "Outfit", sans-serif;
@@ -158,7 +228,7 @@ a {
   border-radius: 30px;
 }
 .header .navbar-nav li a:hover {
-  transition: 0.6s;
+  transition: 0.4s;
   border: 1px solid #000000;
   border-radius: 30px;
   box-shadow: 8px 8px 4px 0 rgba(0, 0, 0, 0.5);
@@ -177,16 +247,24 @@ a {
 }
 
 @media (max-width: 992px) {
-  .header__control {
-    margin-top: 25px;
+  .header .navbar-expand-lg {
+    background-color: transparent !important;
+    background-image: linear-gradient(135deg, #00b4db 10%, white 10%, white 90%, #0083b0 90%);
   }
-
-  .nav-item {
+  .header__control {
+    margin-top: 50px;
+  }
+  .header .nav-item {
     text-align: center;
   }
-
-  .navbar-nav {
+  .header .navbar-nav {
     margin-top: 20px !important;
+  }
+}
+@media (max-width: 576px) {
+  .header .row {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
