@@ -247,6 +247,38 @@ a {
   border-top: 1px solid black;
   transition: 0.4s;
 }
+.header__wrapper-upper {
+  justify-content: space-between;
+}
+.header__subtitle {
+  margin-top: 150px;
+  color: #82CBAC;
+  font-family: "Outfit", sans-serif;
+  margin-bottom: -10px;
+  font-size: 18px;
+}
+.header__title {
+  font-size: 68px;
+  font-family: "Outfit", sans-serif;
+  max-width: 550px;
+  color: #ffffff;
+}
+.header__description {
+  font-family: "Outfit", sans-serif;
+  font-size: 22px;
+  max-width: 500px;
+  color: #82CBAC;
+}
+.header__right-side img {
+  margin-top: 60px;
+}
+.header__collage-picture {
+  margin-top: 100px;
+  width: 100vw;
+}
+.header .container-fluid {
+  padding: 0;
+}
 
 @media (max-width: 992px) {
   .header .navbar-expand-lg {
@@ -262,6 +294,24 @@ a {
   .header .navbar-nav {
     margin-top: 20px !important;
   }
+  .header__wrapper-upper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__subtitle {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .header__title {
+    text-align: center;
+    font-size: 48px;
+  }
+  .header__description {
+    text-align: center;
+  }
+  .header__collage-picture {
+    margin-top: 100px;
+  }
 }
 @media (max-width: 576px) {
   .header .row {
@@ -275,6 +325,7 @@ a {
 }
 .work__zero-three, .work__zero-two, .work__zero-one {
   border-radius: 30px;
+  border: 1px solid grey;
   padding: 12px 24px;
   color: #ffffff;
   font-size: 18px;

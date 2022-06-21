@@ -33,4 +33,37 @@
       transition: $transition-regular;
     }
   }
+  &__wrapper-upper {
+    justify-content: space-between;
+  }
+  &__subtitle {
+    margin-top: 150px;
+    color: $accent-color;
+    font-family: $regular-font;
+    margin-bottom: -10px;
+    font-size: 18px;
+  }
+  &__title {
+    font-size: 68px;
+    font-family: $regular-font;
+    max-width: 550px;
+    color: #ffffff;
+  }
+  &__description {
+    font-family: $regular-font;
+    font-size: 22px;
+    max-width: 500px;
+    color: $accent-color;
+  }
+  &__right-side img {
+    margin-top: 60px;
+  }
+  &__collage-picture {
+    margin-top: 100px;
+    width: 100vw;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+
 }
