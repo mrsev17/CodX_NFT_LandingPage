@@ -1,0 +1,13 @@
+@media (max-width: 992px) {
+  .header {
+    &__control {
+      margin-top: 25px;
+    }
+  }
+  .nav-item {
+    text-align: center;
+  }
+  .navbar-nav {
+    margin-top: 20px !important;
+  }
+}

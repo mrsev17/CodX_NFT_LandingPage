@@ -1,2 +1,44 @@
 @import "variables";
 
+body {
+  font-family: $regular-font;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar-expand-lg {
+  border-radius: 30px !important;
+  background-color: #ffffff !important;
+  box-shadow: 8px 8px 4px 0 rgba(0,0,0,0.50);
+  border: 1px solid grey;
+  padding: 15px 10px !important;
+}
+.navbar-toggler {
+  background-color: #ffffff;
+  border-radius: 20% !important;
+  border: 1px solid #000000 !important;
+}
+.navbar-toggler-icon {
+  color: #000000 !important;
+  margin: 6px 20px 0 0;
+  font-family: $regular-font;
+}
+.nav-link {
+  color: #000000 !important;
+}
+.btn {
+  border-radius: 30px !important;
+  border: 1px solid #000000 !important;
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  font-family: $regular-font;
+  font-size: 18px !important;
+  &:hover {
+    color: #000000 !important;
+    background-color: transparent !important;
+    transition: .4s !important;
+  }
+}
