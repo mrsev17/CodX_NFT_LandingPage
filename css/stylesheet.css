@@ -177,7 +177,7 @@ a {
 
 @media (max-width: 992px) {
   .advantages {
-    background-image: linear-gradient(45deg, white 10%, white 10%, white 90%, #82CBAC 90%);
+    background-image: linear-gradient(45deg, #82CBAC 10%, white 10%, white 90%, white 90%);
   }
   .advantages__wrapper {
     flex-direction: column;
@@ -269,6 +269,31 @@ a {
     padding: 20px 0 0;
   }
 }
+.discover {
+  padding: 60px 0 0;
+  background-color: #82CBAC;
+}
+.discover__title {
+  font-family: "Outfit", sans-serif;
+  font-size: 64px;
+  max-width: 680px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.discover__description {
+  margin: 20px auto 0;
+  max-width: 600px;
+  font-size: 24px;
+  font-family: "Outfit", sans-serif;
+  color: #ffffff;
+}
+.discover__wrapper-left {
+  text-align: center;
+}
+.discover__wrapper-right > img {
+  margin: 0 auto;
+}
+
 .header {
   padding: 30px 0 0 0;
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(140, 29, 204) 38%, rgb(0, 212, 255) 100%);

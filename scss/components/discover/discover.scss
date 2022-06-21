@@ -1,0 +1,24 @@
+.discover {
+  padding: 60px 0 0;
+  background-color: $accent-color;
+  &__title {
+    font-family: $regular-font;
+    font-size: 64px;
+    max-width: 680px;
+    margin: 0 auto;
+    color: #ffffff;
+  }
+  &__description {
+    margin: 20px auto 0;
+    max-width: 600px;
+    font-size: 24px;
+    font-family: $regular-font;
+    color: #ffffff;
+  }
+  &__wrapper-left {
+    text-align: center;
+  }
+  &__wrapper-right > img {
+    margin: 0 auto;
+  }
+}
