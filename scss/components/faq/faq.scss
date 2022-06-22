@@ -1,0 +1,18 @@
+.faq {
+  padding: 80px 0;
+  &__items {
+    .accordion-item {
+      border: none;
+      margin-top: 40px;
+      font-size: 22px;
+    }
+    .accordion-button {
+      font-size: 22px !important;
+      font-family: $regular-font;
+    }
+  }
+  &__title {
+    font-size: 64px;
+    font-family: $regular-font;
+  }
+}

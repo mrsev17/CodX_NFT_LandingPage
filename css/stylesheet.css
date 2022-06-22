@@ -335,6 +335,23 @@ a {
   margin: 0 auto;
 }
 
+.faq {
+  padding: 80px 0;
+}
+.faq__items .accordion-item {
+  border: none;
+  margin-top: 40px;
+  font-size: 22px;
+}
+.faq__items .accordion-button {
+  font-size: 22px !important;
+  font-family: "Outfit", sans-serif;
+}
+.faq__title {
+  font-size: 64px;
+  font-family: "Outfit", sans-serif;
+}
+
 .header {
   padding: 30px 0 0 0;
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(140, 29, 204) 38%, rgb(0, 212, 255) 100%);
