@@ -1,0 +1,27 @@
+.topnft {
+  padding: 60px 0;
+  .card {
+    border: none !important;
+    width: 18rem;
+    border-radius: 30px;
+    &:hover {
+      transition: 1s;
+      box-shadow: 3px 3px 8px 3px #000000;
+    }
+  }
+  &__title {
+    text-align: center;
+    font-family: $regular-font;
+    font-size: 58px;
+  }
+  p {
+    font-family: $regular-font;
+    font-size: 18px;
+  }
+  &__wrapper-upper {
+    margin-top: 40px !important;
+  }
+  &__wrapper-down {
+    margin-top: 40px !important;
+  }
+}
