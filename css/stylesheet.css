@@ -352,6 +352,79 @@ a {
   font-family: "Outfit", sans-serif;
 }
 
+.footer {
+  padding: 120px 0 60px;
+}
+.footer__text-left {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.footer__wrapper-networks {
+  gap: 20px;
+}
+.footer__title-site {
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+}
+.footer__wrapper-links {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer__wrapper-links a {
+  color: #000000;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+}
+.footer__wrapper-links a:hover {
+  color: #82CBAC;
+}
+.footer__right-title {
+  font-family: "Outfit", sans-serif;
+  font-size: 35px;
+}
+.footer__description {
+  max-width: 420px;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+}
+.footer .form-control {
+  width: 100% !important;
+  border-radius: 30px;
+  padding: 0.375rem 3.75rem;
+}
+.footer__down-part {
+  margin-top: 60px !important;
+}
+.footer__subtitle-left {
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.footer__subtitle-right {
+  font-size: 14px;
+  font-family: "Outfit", sans-serif;
+  opacity: 0.7;
+}
+.footer__subtitle-right span {
+  color: #FF7F96;
+}
+.footer__wrapper-main-content {
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .footer__wrapper-main-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .footer__logo {
+    margin: 0 auto;
+  }
+}
 .header {
   padding: 30px 0 0 0;
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(140, 29, 204) 38%, rgb(0, 212, 255) 100%);
